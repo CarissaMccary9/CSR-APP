@@ -1,0 +1,18 @@
+my-node-project/
+├── .gitignore
+├── README.md
+├── package.json
+├── index.js
+├── lib/
+│   ├── utils.js
+│   └── database.js
+├── test/
+│   ├── unit/
+│   │   ├── test-utils.js
+│   │   └── test-database.js
+│   └── integration/
+│       ├── test-auth.js
+│       └── test-api.js
+└── config/
+    ├── default.json
+    └── production.json
